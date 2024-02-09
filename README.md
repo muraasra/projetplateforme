@@ -20,3 +20,9 @@ On a realié notre projet en php/laravel et nous avons ete soumis a une contrain
 ainsi que les test . Nous avons été butté au niveau du placement dans le dossier laravel, car malgres nos recherches sur la documents de laravel , nous avons pas reussi a joindre les test atravers phpunit . 
 comme deuxieme dificulter nous avons eu l'importation de tous le package de laravel qui est tres lourd et constituer de plusieur dossiers sur github.
 Et malgres tout cela nous pu realise les combats robot - robot et humain-humain
+
+
+
+VISIBILITE DES CHAMPS:
+
+Concernant votre question sur la visibilité des champs, il est généralement recommandé de déclarer les champs avec une visibilité private par défaut. Cela suit le principe de l'encapsulation, qui consiste à cacher les détails internes d'une classe et à n'exposer que les méthodes nécessaires pour interagir avec celle-ci. En utilisant des champs privés, vous pouvez contrôler l'accès aux données de la classe et garantir une meilleure encapsulation. Cela permet également de faciliter la maintenance et l'évolution du code, car vous pouvez modifier la façon dont les données sont stockées et manipulées à l'intérieur de la classe sans affecter les autres parties du code qui utilisent la classe.
